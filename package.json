@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "node --watch src/app.js",
     "migrate": "sequelize-cli db:migrate",
+    "start": "node src/app.js",
     "seed": "sequelize-cli db:seed:all",
     "seed-delete": "npx sequelize-cli db:seed:undo:all",
     "seed-undo": "npx sequelize-cli db:seed:undo",
